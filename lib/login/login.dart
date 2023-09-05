@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -76,16 +75,8 @@ class _LoginScreenState extends State<LoginScreen> {
                   height: screenHeight * 0.05,
                 ),
                 Image.asset(
-                  'assets\logo.png',
+                  'assets/logo.png',
                   width: screenWidth * 0.7,
-                  fit: BoxFit.contain,
-                ),
-                SizedBox(
-                  height: screenHeight * 0.05,
-                ),
-                Image.asset(
-                  'assets/images/registration.png',
-                  height: screenHeight * 0.3,
                   fit: BoxFit.contain,
                 ),
                 SizedBox(

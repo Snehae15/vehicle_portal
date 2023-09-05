@@ -43,6 +43,8 @@ dependencies:
   intl: ^0.18.1
   shared_preferences: ^2.0.0
   image_picker: ^1.0.0
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.0
 
 dev_dependencies:
   flutter_test:
